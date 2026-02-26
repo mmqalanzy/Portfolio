@@ -1,0 +1,64 @@
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-bg.jpg'); /* Background image */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+/* About Cards */
+.about-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Dashboard Section */
+.dashboard {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
